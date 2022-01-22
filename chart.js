@@ -113,10 +113,10 @@ function buildCharts(sample) {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "Bacteria Cultures per Sample",
-      margin: { t: 0 },
+      margin: { t: 20 },
       hovermode: "closest",
       xaxis: { title: "OTU ID" },
-      margin: { t: 30},
+      margin: { t: 60},
       yaxis: {title: "Sample Values"}
     };
 
@@ -138,7 +138,7 @@ function buildCharts(sample) {
       {
         domain: { x: [0,1], y: [0,1]},
         value: frequency,
-        title: { text: "<h>Belly Button Washing Frequency</h> <hr> Scrubs per Week"},
+        title: { text: "Belly Button Washing Frequency Scrubs per Week"},
         type: "indicator",
         mode: "gauge+number",
         gauge: {
