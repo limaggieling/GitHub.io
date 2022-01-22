@@ -1,0 +1,9 @@
+body {
+    color: #221010;
+}
+
+.jumbotron {
+    background-image: url("images/culture.jpg");
+    background-size: cover;
+    text-align: center;
+  }
